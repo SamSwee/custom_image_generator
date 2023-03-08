@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test</title>
+    <title>Custom Image Generator</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
 	    <img src="nft_square.jpg" id="nft_image">
-      <h1>Generate your own image for your NFT</h1>
-
-      <label>Type your StackUp name here</label>
-      <input type="text" id="name"/>
-      <button type="button" id="submitbtm">Submit</button>
-      <canvas id="myCanvas" width="320" height="320"></canvas>
+      <div>
+        <h1>Generate your own image for your NFT</h1>
+        <caption>Your image will look like this</caption>
+        <img src="sample.jpg" id="sample"/>
+      </div>
+      <div>
+        <label>Type your StackUp name here</label>
+        <input type="text" id="name"/>
+        <button type="button" id="submitbtm">Submit</button>
+        <canvas id="myCanvas" width="640" height="640"></canvas>
+      </div>
     <script src="index.js"></script>
   </body>
 </html>
