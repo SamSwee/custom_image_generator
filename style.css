@@ -1,0 +1,40 @@
+body {
+    background: #222;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding-bottom: 3em;
+  }
+  .page-wrap {
+    display: inline-block;
+    margin: 2em auto;
+  }
+ 
+  #myCanvas {
+    background-color: #eee;
+    opacity: 0;
+    transition: opacity .3s;
+  }
+
+  #nft_image {
+    display: none;
+  }
+
+  input {
+    display:block;
+    margin: 0 auto;
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  label {
+    display: block;
+    margin-bottom: 1em;
+  }
+  button {
+    display: block;
+    margin: auto;
+    margin-bottom: 2em;
+  }
