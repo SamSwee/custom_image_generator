@@ -11,6 +11,7 @@ body {
     color: #fff;
     position: relative;
     text-align: center;
+    align-items: center;
     font-size: 1rem;
     font-family: "alataregular", sans-serif;
     padding-bottom: 3em;
@@ -30,6 +31,11 @@ body {
   #nft_image {
     display: none;
   }
+
+  #tweet {
+    opacity: 0;
+  }
+
   #sample {
     display:block;
     margin-left: auto;
