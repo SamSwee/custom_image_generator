@@ -28,10 +28,6 @@ body {
     margin-right: auto;
   }
 
-  #nft_image {
-    display: none;
-  }
-
   #tweet {
     opacity: 0;
   }
