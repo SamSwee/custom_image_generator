@@ -9,7 +9,7 @@ document.getElementById('submitbtm').addEventListener('click', function() {
     imageObj.onload = function(){
         ctx.drawImage(imageObj, 0, 0);
         ctx.font = "40pt alataregular";
-        ctx.fillStyle = '#004aad';
+        ctx.fillStyle = 'white';
         ctx.textBaseline = 'middle';
         ctx.textAlign = "center";
         ctx.fillText(text_name, (canvas.width/2)-5, 180);
