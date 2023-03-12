@@ -14,7 +14,7 @@ document.getElementById('submitbtm').addEventListener('click', function() {
         ctx.textAlign = "center";
         ctx.fillText(text_name, (canvas.width/2)-5, 180);
     };
-    imageObj.src = "nft_square.png"; 
+    imageObj.src = "nft_square_stackup.png"; 
 });
 
 window.twttr = (function(d, s, id) {
